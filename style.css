@@ -8,3 +8,14 @@
     --fonte-letras: 'Inter', sans-serif;
 }
 
+.swiper-pagination{
+    position: initial;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
+
+.swiper-wrapper {
+    touch-action: pan-y;
+}
