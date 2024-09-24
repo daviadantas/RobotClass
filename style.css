@@ -8,6 +8,22 @@
     --fonte-letras: 'Inter', sans-serif;
 }
 
+.linha{
+    border: 3px solid var(--cor-primaria);
+    margin: 5px 0px  ;
+}
+
+.titulo-secao{ 
+    margin: 15px auto 10px auto;
+    width: 171px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
+    text-align: center;
+}
+
 .swiper-pagination{
     position: initial;
 }
@@ -18,4 +34,15 @@
 
 .swiper-wrapper {
     touch-action: pan-y;
+}
+
+#materiais{
+    margin: 30px 0px;
+    
+}
+
+.materiais{
+    padding: 10px;
+    margin: 15px 0px;
+    background-color: var(--cor-preta);
 }
