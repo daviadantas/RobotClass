@@ -58,7 +58,7 @@
 
         <h2 class="titulo-secao">GALERIA</h2>
         
-        <div class="swiper">
+        <div class="swiper swiperGaleria" id="swiperGaleria">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">
                     <div class="project-img">
@@ -110,10 +110,10 @@
 
         
         <div id="materiais1" class="materiais">
-            <div class="swiper">
+            <div class="swiper swiperm">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <div class="project-img">
+                        <div class="project-img primeira-img">
                             <img src="./img/fotoGenerica1.svg" alt="Foto 01">
                         </div>
                     </div>
@@ -154,11 +154,13 @@
                     </div>
                 </div>
             </div>
+            
+        
         </div>
 
     
         <div id="materiais2" class="materiais">
-            <div class="swiper">
+            <div class="swiper swiperm">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="project-img">
@@ -206,7 +208,7 @@
 
     
         <div id="materiais3" class="materiais">
-            <div class="swiper">
+            <div class="swiper swiperm">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="project-img">
@@ -254,7 +256,7 @@
 
     
         <div id="materiais4" class="materiais">
-            <div class="swiper">
+            <div class="swiper swiperm">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="project-img">
@@ -302,7 +304,7 @@
 
     
         <div id="materiais5" class="materiais">
-            <div class="swiper">
+            <div class="swiper swiperm">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="project-img">
@@ -350,7 +352,7 @@
 
     
         <div id="materiais6" class="materiais">
-            <div class="swiper">
+            <div class="swiper swiperm">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
                         <div class="project-img">
@@ -411,10 +413,19 @@
 
 
       <script>
-    const swiper = new Swiper('.swiper', {
+    const swiperGaleria = new Swiper('.swiperGaleria', {
     loop: true,
     spaceBetween: 10,
     slidesPerView: 3,
+    pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+    },
+    });
+    const swiper = new Swiper('.swiperm', {
+    loop: true,
+    spaceBetween: 10,
+    slidesPerView: 2.3,
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
