@@ -13,13 +13,39 @@
 }
 
 .navbar-toggler {
-    background: none; /* Remove o fundo do botão de toggler */
-    border: none;     /* Remove a borda do botão */
+    background: none; 
+    border: none;     
+}
+
+#navbarNav{
+    margin: auto 20px;
+}
+
+.navbar-nav{
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 .nav-item{
-    display: inline;
+    text-align: center;
+    justify-items: center;
 }
+
+.nav-link{
+    text-align: -webkit-center;
+} 
+
+.nav-link span{
+    font-size: 12px;
+    color: var(--cor-branca);
+    font-family: var(--fonte-letras);
+    font-weight: 500;
+}
+
+.imgDrop{
+    display: block;
+}
+
 
 .linha, .linha2{
     border: 3px solid var(--cor-primaria);
