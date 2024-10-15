@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 :root{
+    --cor-fundo-sobrenos: #DFEFE9;
+    --cor-letra-sobrenos: #096E44;
     --cor-primaria: #16C27C;
     --cor-preta: #2F2E2E;
     --cor-branca: #FFFFFF;
@@ -14,7 +16,7 @@
 
 .navbar-toggler {
     background: none; 
-    border: none;     
+    border: none;   
 }
 
 #navbarNav{
@@ -42,6 +44,42 @@
     font-weight: 500;
 }
 
+.div-btn{
+    background-color: var(--cor-preta);
+    height: 100%;
+}
+
+.btn-carrossel{
+    width: 43%;
+    height: 100%;
+    border: none;
+    background: var(--cor-preta);
+    position: absolute;
+    z-index: 10;
+}
+
+.titulo-material{
+    margin: 0px auto 0px auto;
+    font-size: 14px;
+    width: 123px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 16px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branca);
+    text-align: center;
+    font-family: var(--fonte-letras);
+    font-weight: 500;
+    
+}
+
+
+.img-btn{
+    height: 90%;
+    width: 90%;
+    margin: 0px 5px auto auto;
+}
+
 .imgDrop{
     display: block;
 }
@@ -56,7 +94,7 @@
     margin: 5px 0px 10px 0px;
 }
 
-.titulo-secao, .bntInicio{ 
+.titulo-secao, .bntInicio { 
     margin: 15px auto 10px auto;
     width: 171px;
     border-radius: 10px;
@@ -67,6 +105,26 @@
     text-align: center;
     font-family: var(--fonte-letras);
     font-weight: 500;
+}
+
+
+#sobreNosDiv{
+    background-color: var(--cor-fundo-sobrenos);
+    border-radius: 10px;
+    width: 82.5%;
+    height: 10%;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    padding: 15px 10px 5px 10px;
+
+}
+
+.texto-sobre{
+    margin-bottom: 10px;
+    color: var(--cor-letra-sobrenos);
+    font-size: 10px;
+    font-family: var(--fonte-letras);
+    font-weight: 600;
 }
 
 .swiper-pagination{
@@ -113,5 +171,7 @@
     margin: 15px 0px;
     background-color: var(--cor-preta);
 }
+
+
 
 
