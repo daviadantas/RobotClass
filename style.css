@@ -139,6 +139,10 @@
     touch-action: pan-y;
 }
 
+#logo-desk{
+    display: none;
+}
+
 #inicio {
     background: url(./img/backgrondMobal.svg) no-repeat center center;
     background-size: cover; 
@@ -150,6 +154,11 @@
 .centralizar{
     text-align: center;
     align-items: center;
+}
+
+#seta{
+    margin-left: 3px;
+    vertical-align: inherit;
 }
 
 .logo{
@@ -172,6 +181,43 @@
     background-color: var(--cor-preta);
 }
 
+@media (min-width: 834px){
+    .navbar-nav {
+        justify-content: space-around;
+    }
+
+#inicio {
+    background: url(./img/backgrondTablett.svg) no-repeat center center;
+    background-size: cover; 
+    width: auto;
+    height: 813px;
+}
+
+#logo-mobal{
+    display: none;
+}
+
+#logo-desk{
+    display: block;
+}
+
+.centralizar{
+    margin: 20% auto auto 35%;
+    position: absolute;
+}
+
+.bntInicio {
+    font-size: 27px;
+    width: 254px;
+}
+
+#seta{
+    height: 20px;
+}
+
+
+
+}
 
 
 
