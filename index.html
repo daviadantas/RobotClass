@@ -131,6 +131,8 @@
                     </div>
                 </div>
             </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
         </div>
         <div class="linha"></div>
     </div>
@@ -445,11 +447,7 @@
         </div>
 
     </div>
-
-
-  <footer>
-
-  </footer>
+    
    
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
@@ -462,6 +460,10 @@
     loop: true,
     spaceBetween: 10,
     slidesPerView: 3,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
     pagination: {
         el: '.swiper-pagination',
         clickable: true,

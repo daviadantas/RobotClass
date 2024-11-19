@@ -131,8 +131,19 @@
     position: initial;
 }
 
+.swiper-button-prev, .swiper-button-next {
+    display: none;
+}
+
 .swiper-slide img{
-    width: 100%;
+    width: 98%;
+    height: 98%;
+    object-fit: cover;
+    
+}
+
+.swiper-slide{
+ 
 }
 
 .swiper-wrapper {
@@ -181,6 +192,8 @@
     background-color: var(--cor-preta);
 }
 
+
+
 @media (min-width: 834px){
     .navbar-nav {
         justify-content: space-around;
@@ -213,6 +226,26 @@
 
 #seta{
     height: 20px;
+}
+
+.titulo-secao{
+    font-size: 32px;
+    width: 317px;
+}
+
+.texto-sobre{
+    font-size: 24px;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    display: block;
+    color: var(--cor-primaria);
+    margin: auto 5px;
+}
+
+.titulo-material{
+    width: 224px;
+    font-size: 24px;
 }
 
 
