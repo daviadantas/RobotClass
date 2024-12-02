@@ -199,6 +199,96 @@
     background-color: var(--cor-preta);
 }
 
+footer {
+    background-color: var(--cor-preta);
+    padding: 2px 5px;
+    color: white;
+}
+.espaco-branco {
+    height: 10px;
+}
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    gap: 10%; 
+}
+.footer-section {
+    flex-basis: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-list {
+    display: flex;
+    flex-direction: column;
+}
+.linksR,
+.endereco {
+    display: flex;
+    flex-direction: column;
+    }
+.linksR h3,
+.endereco h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--cor-primaria);
+   margin: 0;
+    display: flex;
+    align-items: center;
+}
+.linksR h3 img,
+.endereco h3 img {
+    width: 10px;
+    margin-right: 3px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+ul li a {
+    font-size: 11px;
+    color: var(--cor-rodape);
+    text-decoration: none;
+}
+ul li {
+    color: var(--cor-rodape);
+    margin-left: 13px;
+}
+ul li a:hover {
+    color: var(--cor-verde);
+}
+.endereco p {
+    font-size: 0.8vw;
+    color: var(--cor-rodape);
+    margin: 0;
+    margin-left: 1.2vw;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.social a:nth-child(1) img {
+    width: 40px;
+}
+
+.social a:nth-child(2) img {
+    width: 50px;
+}
+.footer-bottom {
+    text-align: center;
+    margin-top: 3px;
+}
+.footer-bottom p {
+    font-size: 0.5vw;
+    color: #aaa;
+    margin: 0;
+}
+   
+
 
 
 @media (min-width: 834px){
@@ -236,6 +326,7 @@
 }
 
 .titulo-secao{
+    margin-bottom: 3%;
     font-size: 32px;
     width: 317px;
 }
@@ -257,6 +348,31 @@
 
 .linha, .linha2{
     border: 5px solid var(--cor-primaria);
+}
+
+.linksR h3,
+.endereco h3 {
+    font-size: 23px;
+}
+
+ul li a {
+    font-size: 18px;
+}
+ul li {
+    font-size: 18px;
+}
+
+.social a:nth-child(1) img {
+    width: 50px;
+}
+
+.social a:nth-child(2) img {
+    width: 70px;
+}
+
+.linksR h3 img,
+.endereco h3 img {
+    width: 20px;
 }
 
 
@@ -304,6 +420,7 @@
 #inicio {
     background: url(./img/backgrondDesktop2.svg) no-repeat  left top;
     height: 730px;
+
 }
 
 .centralizar{
@@ -314,5 +431,22 @@
     margin: 0px;
 }
 
+div .linha{
+    display: none;
 }
+
+.espaco{
+    margin: 5% auto;
+}
+
+.titulo-secao{
+    font-size: 50px;
+}
+
+.texto-sobre{
+    font-size: 32px;
+}
+
+}
+
 
