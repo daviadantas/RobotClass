@@ -69,10 +69,10 @@
 .titulo-material{
     margin: 0px auto 0px auto;
     font-size: 14px;
-    width: 123px;
+    width: 143px;
     border-radius: 10px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 12px;
     background-color: var(--cor-primaria);
     color: var(--cor-branca);
     text-align: center;
